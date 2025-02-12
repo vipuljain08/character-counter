@@ -30,9 +30,9 @@ export default function Home() {
     });
   }, [textAreaValue]);
   return (
-    <main className="overflow-hidden text-center mt-6">
-      <section className="bg-light-violet p-4 md:p-8 md:px-16 lg:px-64">
-        <h1 className="text-4xl md:text-6xl md:leading-[72px] lg:px-32 text-white">
+    <main className="overflow-hidden text-center">
+      <section className="p-4 md:py-2 md:px-8 xl:px-64">
+        <h1 className="text-4xl md:text-6xl md:leading-[72px] xl:px-32">
           Analyze your text in real-time.
         </h1>
         <Textarea onInput={handleInput} value={textAreaValue} />

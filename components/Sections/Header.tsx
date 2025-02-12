@@ -17,7 +17,7 @@ const Header = () => {
             height={24}
             className="mx-auto"
           />
-          <p className="text-lg md:text-xl text-white ml-2">Character Counter</p>
+          <p className="text-lg md:text-xl ml-2">Character Counter</p>
         </Link>
         <ThemeToggle />
       </nav>

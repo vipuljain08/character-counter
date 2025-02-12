@@ -5,7 +5,7 @@ import { useState } from 'react'
 import { Moon, Sun } from 'lucide-react'
 
 export default function ThemeToggle() {
-  const [theme, setTheme] = useState<'light' | 'dark'>('dark')
+  const [theme, setTheme] = useState<'light' | 'dark'>('light')
 
   // useEffect(() => {
   //   // On mount, read initial theme from localStorage or system preference

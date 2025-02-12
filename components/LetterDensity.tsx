@@ -63,7 +63,7 @@ export default function LetterDensity({ text }: LetterDensityProps) {
   }, [letterFrequencyMap]);
 
   return (
-    <div className="mt-4 md:mt-8 ml-2 text-white">
+    <div className="mt-4 md:mt-8 ml-2">
       <h2 className="text-lg text-left md:text-xl md:mb-2">Letter Density</h2>
       {[...letterFrequencyMap.entries()].map(
         (elem, index) =>
